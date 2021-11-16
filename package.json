@@ -1,0 +1,16 @@
+{
+  "name": "ab-grouping",
+  "version": "1.0.0",
+  "description": "A small tool to count aggregated data from 2 columns in a CSV file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@uri-github.com:uri-chandler/ab-grouping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

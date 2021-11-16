@@ -21,7 +21,7 @@ npm install
 2. Run the script with the following command:
 
 ```
-npx ts-node index.ts
+npm start
 ```
 
 3. The script will write a new file called `output.csv`

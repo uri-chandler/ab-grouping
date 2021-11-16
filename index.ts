@@ -78,8 +78,11 @@ function count_second_column_per_group(data:{ [key:string]: Array<string> }) {
 
     for (const key in data) {
         (data[key] as Object) = data[key].reduce((all, one) => {
-            all[one] = all[one] || 0;
-            all[one] += 1;
+            if (typeof all[one] === 'number')
+                all[one] += 1;
+            else
+                all[one] = 1;
+
             return all;
         }, {});
     }
